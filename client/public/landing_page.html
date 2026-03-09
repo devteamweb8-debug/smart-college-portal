@@ -4,7 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>South Bengal Institute of Technology</title>
+<link rel="shortcut icon" href="..//media/icons/COLLEGE WEBSITE LOGO.png" type="image/x-icon">
 <link rel="stylesheet" href="..//styles/Welcome_PopUp.css">
+<link rel="stylesheet" href="..//styles/Great_Minds.css">
+<link rel="stylesheet" href="..//styles/notices.css">
+<link rel="stylesheet" href="..//styles/principal_desk.css">
+<link rel="stylesheet" href="..//styles/gallery.css">
+<link rel="stylesheet" href="../styles/slider.css">
 </head>
 <body>
 <!-- Step 1: Welcome Modal -->
@@ -26,10 +32,107 @@
 
 </div>
 
+<!--Image Slider-->
+<section class="hero-slider">
+
+<button id="prevBtn" class="slide-btn prev">❮</button>
+
+<img id="sliderImage" class="slider-image"
+src="..//media/slider/slide1.png"
+alt="College Slide">
+
+<button id="nextBtn" class="slide-btn next">❯</button>
+
+</section>
+
+
+<section class="info-section">
+
+<!-- Inspired by Great Minds -->
+
+<div class="great-minds">
+
+<h3>INSPIRED BY GREAT MINDS</h3>
+
+<div class="quote-box">
+
+<img src="..//media/images/Kalam's Quote.jpg" alt="Dr APJ Abdul Kalam">
+</div>
+</div>
+
+<!-- Notices -->
+
+<div class="notice-panel">
+
+<h3>NOTICES</h3>
+
+<div class="notice-columns">
+
+<div class="notice-box">
+<h4>GENERAL NOTICE</h4>
+<div id="generalNotice"></div>
+</div>
+
+<div class="notice-box">
+<h4>ADMISSION NOTICE</h4>
+<div id="admissionNotice"></div>
+</div>
+
+<div class="notice-box">
+<h4>EXAM NOTICE</h4>
+<div id="examNotice"></div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- Principal + Gallery -->
+
+<section class="principal-gallery">
+
+<div class="principal-desk">
+
+<img src="..//media/images/Princple.png" alt="Principal's Desk">
+
+<div class="principal-text">
+
+<h3>Principal's Desk</h3>
+
+<p>Principal says...</p>
+
+<a href="#">...Read More</a>
+
+</div>
+
+</div>
+
+
+
+<div class="gallery-section">
+
+<h3 id="College-Gallery">College Gallery</h3>
+
+<div class="gallery-grid">
+
+<a href="#">Photo Gallery</a>
+<a href="#">Video Gallery</a>
+<a href="#">Event Gallery</a>
+
+</div>
+
+</div>
+
+</section>
 
 <!-- JS file -->
 
 <script src="..//scripts/Welcome_PopUp.js"></script>
+<script src="..//scripts/slider.js"></script>
 
 </body>
 

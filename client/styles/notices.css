@@ -1,0 +1,23 @@
+/* Notices */
+
+.notice-panel{
+background:#eee;
+padding:10px;
+border-radius:6px;
+}
+
+.notice-panel h3{
+text-align:center;
+}
+
+.notice-columns{
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+gap:10px;
+}
+
+.notice-box{
+background:#ddd;
+padding:10px;
+min-height:200px;
+}

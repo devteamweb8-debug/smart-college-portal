@@ -1,0 +1,23 @@
+/* Great minds */
+
+.great-minds h3{
+color:#4a57a8;
+}
+
+.quote-box{
+display:flex;
+gap:10px;
+align-items:center;
+width:100%;
+}
+
+.quote-box img{
+width:250px;
+border-radius:20px;
+}
+
+.quote-text h1{
+font-size:40px;
+color:#999;
+margin:0;
+}

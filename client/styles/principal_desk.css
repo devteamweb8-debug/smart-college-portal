@@ -1,0 +1,23 @@
+/* Principal Desk CSS */
+
+.principal-gallery{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+max-width:1200px;
+margin:20px auto;
+}
+
+.principal-desk{
+display:flex;
+background:#5f84c9;
+color:white;
+padding:10px;
+border-radius:8px;
+}
+
+.principal-desk img{
+width:120px;
+border-radius:6px;
+margin-right:10px;
+}
