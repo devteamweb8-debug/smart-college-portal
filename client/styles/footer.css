@@ -36,39 +36,39 @@ margin:0;
 
 /* Contact Section */
 
-.contact{
+.contact1{
 width:30%;
 text-align:center;
 }
 
-.contact h3{
+.contact1 h3{
 font-size:22px;
 margin-bottom:15px;
 }
 
-.contact p{
+.contact1 p{
 margin:6px 0;
 font-size:16px;
 }
 
 /* Quick Links */
 
-.links{
+.links1{
 width:25%;
 text-align:left;
 }
 
-.links h3{
+.links1 h3{
 font-size:22px;
 margin-bottom:15px;
 }
 
-.links ul{
+.links1 ul{
 list-style:none;
 padding:0;
 }
 
-.links ul li{
+.links1 ul li{
 margin:10px 0;
 font-size:16px;
 }

@@ -1,0 +1,191 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.top-header{
+    background:#6d9ae2;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:8px 40px;
+    font-size:20px;
+}
+.top-header span{
+    margin-right:20px;
+}
+.top-header a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+}
+
+.contact{
+    display:flex;
+    align-items:center;
+    gap:40px;
+}
+
+.contact span{
+    display:flex;
+    align-items:center;
+}
+
+.contact img{
+    width:25px;
+    height:25px;
+    margin-right:8px;
+}
+
+.links span{
+    margin-right:20px;
+}
+.links img{
+    width:23px;
+    height:20px;
+    margin-right:10px;
+    vertical-align:middle;
+}
+
+.social img{
+    width:23px;
+    height:20px;
+    vertical-align:middle;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px ;
+    background:white; 
+}
+
+.logo{
+    display:flex;
+    margin-right:15px;
+}
+.logo img{
+    width:8em;
+    align-items:center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right:15px; 
+      
+}
+
+.college-Name-heading{      
+    font-size:32px;
+    font-family: "Cormorant Infant", serif;
+    color:#080f71;
+    line-height:100%;
+    word-spacing: 0%;
+    font-style: bold; 
+    font-weight:500; 
+}
+.logo h3 u{
+    font-size:32px;
+    color:#080f71;
+    font-family: "Cormorant Infant", serif;
+    word-spacing: 0%;
+    font-weight:500; 
+
+}
+.We-innovate-Future{
+    font-size:25px; 
+    color:#1A195F;
+    word-spacing: 0%;
+    font-style:normal;
+    padding-left:4em ;
+    font-weight:400; 
+}
+
+
+.action-item{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    color:black;
+    margin-left:25px; 
+}
+.top-actions{
+    display:flex;
+    align-items:center;
+    margin-bottom:0;
+    
+}
+.action-item img{
+    width:35px;
+    height: 30px;
+    margin-right:10px;
+}
+.action-item div{
+    display:flex;
+    flex-direction:column;
+}
+.action-item span{
+    font-weight:400;
+    font-size:24px;
+    color:#000000;
+    line-height:100%;
+    letter-spacing:0%;
+}
+.action-item small{
+    font-size:12px;
+    color:gray;
+}
+
+.search-box{
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+.search-box input{
+    margin-left:20px;
+    padding:8px 15px;
+    border:1px solid #ccc;
+    border-radius:25px;
+    outline:none;
+    width: 359px;
+    height: 39px;
+}
+
+.right-side{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+
+.college-Name-heading{
+    padding-left: 3em;
+}
+/*Navber */
+.navbar{
+    background-color:#EBE7E7;
+    display:flex;
+    justify-content:center;   
+    align-items:center;
+    list-style:none;
+    padding:0;
+    margin:0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar li{
+    padding:18px 35px;
+    border-right:1px solid #000000;
+    text-align:center;
+}
+
+.navbar li:last-child{
+    border-right:none;
+}
+
+.navbar a{
+    text-decoration:none;
+    color:black;
+    font-weight:400;
+    display:block;
+}
