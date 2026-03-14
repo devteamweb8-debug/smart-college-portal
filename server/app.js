@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-app.use('/', (req, res) => {
+app.get('/', (req, res) => {
     res.send("This is home route");
 })
 
